@@ -1,18 +1,18 @@
 <template>
-  <div class="bg-[#BFBFBF] py-4">
-    <div class="flex flex-wrap overflow-hidden justify-left w-3/4 m-auto">
+  <div class="bg-[#cbcbcb] py-4" >
+    <div class="flex flex-wrap overflow-hidden w-3/4 m-auto pt-2" >
       <div class="w-1/3 px-4">
         <form class="flex flex-wrap w-full overflow-hidden py-4 bg-gray-100 p-4">
-          <div class="w-full overflow-hiddenpy-4">
+          <div class="w-full overflow-hidden py-4">
             <div class="w-full py-2 px-4 ">
               <div class="border-black border-2 rounded-sm">
-                <p class="text-center bg-[#427CAC] rounded-t-sm">Am/Ab*</p>
+                <p class="text-center bg-[#519ad6] rounded-t-sm">Am/Ab*</p>
                 <input class="p-2 rounded-b-sm w-full" type="date" required>
               </div>
             </div>
             <div v-if="showUntilInput" class="w-full py-2 px-4 ">
               <div class="border-black border-2 rounded-sm">
-                <p class="text-center bg-[#427CAC] rounded-t-sm">Bis (optional)</p>
+                <p class="text-center bg-[#519ad6] rounded-t-sm">Bis (optional)</p>
                 <input class="p-2 rounded-b-sm w-full" type="date" required>
               </div>
             </div>
@@ -23,7 +23,7 @@
           </div>
           <div class="w-full px-4 py-2">
             <div class="border-black border-2 rounded-sm">
-              <p class="text-center bg-[#427CAC] rounded-t-sm w-full">Grund*</p>
+              <p class="text-center bg-[#519ad6] rounded-t-sm w-full">Grund*</p>
               <select class="w-full minimal">
                 <option>--Auswählen--</option>
               </select>
@@ -31,7 +31,7 @@
           </div>
           <div class="flex w-full px-4 ">
             <div class="border-black border-2 rounded-sm w-full">
-              <p class=" bg-[#427CAC] rounded-t-sm text-center">Beschreibung</p>
+              <p class=" bg-[#519ad6] rounded-t-sm text-center">Beschreibung</p>
               <textarea class="p-2 rounded-b-sm w-full max-h-[10rem]" name="" id="" rows="3"></textarea>
             </div>
           </div>
