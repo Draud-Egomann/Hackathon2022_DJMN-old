@@ -1,7 +1,0 @@
-{
-  "name": "Ferienplanner",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "vue"
-}
