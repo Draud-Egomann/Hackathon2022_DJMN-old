@@ -11,13 +11,26 @@ export default {
   data() {
     return {
       calendarOptions: {
-        plugins: [ dayGridPlugin, interactionPlugin ],
-        initialView: 'dayGridMonth'
-      }
+        plugins: [dayGridPlugin, interactionPlugin],
+        initialView: 'dayGridMonth',
+        headerToolbar: {
+          center: 'dayGridMonth,dayGridDay' // buttons for switching between views
+        },
+        views: {
+          dayGridMonth: {
+            type: 'dayGridMonth',
+          },
+          dayGridDay: {
+            type: 'dayGridDay',
+          }
+        }
+      },
     }
   }
 }
 </script>
 <template>
-  <FullCalendar :options="calendarOptions" />
+  <div class="w-1/2 m-auto">
+    <FullCalendar :options="calendarOptions" />
+  </div>
 </template>
