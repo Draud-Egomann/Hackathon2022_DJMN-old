@@ -1,20 +1,20 @@
 <template>
-  <div>
-    <div class="bg-gray-300 w-3/4 mx-auto my-4 rounded-md">
+  <div class="bg-[#BFBFBF] py-4">
+    <div class="bg-gray-100 w-3/4 mx-auto px-2 py-4 rounded-sm">
       <div class="flex flex-wrap overflow-hidden">
         <!-- check days -->
         <form class="flex flex-wrap w-full overflow-hidden lg:w-1/2 py-4">
           <div class="flex flex-wrap w-full overflow-hiddenpy-4">
             <div class="w-1/2 px-4 ">
-              <div class="border-black border-2 rounded-md">
-                <p class="text-center bg-gray-400 rounded-t-md">Am/Ab</p>
-                <input class="p-2 rounded-b-md w-full" type="date" required>
+              <div class="border-black border-2 rounded-sm">
+                <p class="text-center bg-gray-400 rounded-t-sm">Am/Ab</p>
+                <input class="p-2 rounded-b-sm w-full" type="date" required>
               </div>
             </div>
             <div v-if="showUntilInput" class="w-1/2 px-4 ">
-              <div class="border-black border-2 rounded-md">
-                <p class="text-center bg-gray-400 rounded-t-md">Bis (optional)</p>
-                <input class="p-2 rounded-b-md w-full" type="date" required>
+              <div class="border-black border-2 rounded-sm">
+                <p class="text-center bg-gray-400 rounded-t-sm">Bis (optional)</p>
+                <input class="p-2 rounded-b-sm w-full" type="date" required>
               </div>
             </div>
             <!-- <button class="btn" type="submit" value="submit">Bestätigen</button> -->
@@ -26,9 +26,9 @@
             </div>
           </div>
           <div class="flex w-full px-4 ">
-            <div class="border-black border-2 rounded-md w-full">
-              <p class=" bg-gray-400 rounded-t-md text-center">Zusätzlicher Text</p>
-              <textarea class="p-2 rounded-b-md w-full max-h-[10rem]" name="" id="" rows="3"></textarea>
+            <div class="border-black border-2 rounded-sm w-full">
+              <p class=" bg-gray-400 rounded-t-sm text-center">Zusätzlicher Text</p>
+              <textarea class="p-2 rounded-b-sm w-full max-h-[10rem]" name="" id="" rows="3"></textarea>
             </div>
           </div>
         </form>
