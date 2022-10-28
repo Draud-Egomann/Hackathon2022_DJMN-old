@@ -1,7 +1,0 @@
-{
-  "name": "Feriencalendar",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "vue"
-}
