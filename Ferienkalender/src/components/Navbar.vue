@@ -8,7 +8,7 @@
         <div class="w-full lg:w-2/3">
           <router-link to="/" class="btn-Header m-2 inline-block text-lg">Kalendar
           </router-link>
-          <router-link to="/" class="btn-Header m-2 inline-block text-lg">Statistik
+          <router-link to="/statistic" class="btn-Header m-2 inline-block text-lg">Statistik
           </router-link>
           <router-link to="/" class="btn-Header m-2 inline-block text-lg">Anfragen
           </router-link>
