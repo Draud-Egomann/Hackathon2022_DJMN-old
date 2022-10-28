@@ -1,3 +1,9 @@
+<template>
+  <div class="w-1/2 m-auto">
+    <FullCalendar ref="fullCalendar" :options="calendarOptions" />
+  </div>
+</template>
+
 <script lang="ts">
 import '@fullcalendar/core/vdom' // solves problem with Vite
 import FullCalendar from '@fullcalendar/vue3'
@@ -34,13 +40,12 @@ export default {
     changeToDay: function(info:any) {
       console.log("Clicked", info);
       let calendarApi = this.$refs.fullCalendar.getApi()
-      calendarApi.next()
+      calendarApi.changeView('dayGridDay', info.date)
     }
   }
 }
 </script>
-<template>
-  <div class="w-1/2 m-auto">
-    <FullCalendar ref="fullCalendar" :options="calendarOptions" />
-  </div>
-</template>
+
+<style scoped>
+
+</style>
