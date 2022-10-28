@@ -23,7 +23,7 @@
           </div>
           <div class="flex w-full px-4 ">
             <div class="border-black border-2 rounded-sm w-full">
-              <p class=" bg-[#427CAC] rounded-t-sm text-center">Zusätzlicher Text</p>
+              <p class=" bg-[#427CAC] rounded-t-sm text-center">Kommentar</p>
               <textarea class="p-2 rounded-b-sm w-full max-h-[10rem]" name="" id="" rows="3"></textarea>
             </div>
           </div>
