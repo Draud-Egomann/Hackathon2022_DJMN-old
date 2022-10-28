@@ -1,15 +1,18 @@
 <template>
   <div>
     <section class="w-full mx-auto">
-      <div class="relative bg-gray-200 p-2">
-        <img src="../assets/logo.jpg" alt="Projekt Ferienplanner" class="w-64 hidden lg:inline" />
-        <h3 class="inline lg:hidden">Projekt Ferienplanner</h3>
-        <router-link to="/" class="btn-Header m-2 inline-block text-lg">Kalendar
-        </router-link>
-        <router-link to="/" class="btn-Header m-2 inline-block text-lg">Statistik
-        </router-link>
-        <router-link to="/" class="btn-Header m-2 inline-block text-lg">Anfragen
-        </router-link>
+      <div class="flex flex-wrap w-full relative bg-gray-200 p-2">
+        <div class="w-full lg:w-1/3">
+          <img src="../assets/logo.svg" alt="Projekt Ferienplanner" class="h-full hidden lg:inline" />
+        </div>
+        <div class="w-full lg:w-2/3">
+          <router-link to="/" class="btn-Header m-2 inline-block text-lg">Kalendar
+          </router-link>
+          <router-link to="/" class="btn-Header m-2 inline-block text-lg">Statistik
+          </router-link>
+          <router-link to="/" class="btn-Header m-2 inline-block text-lg">Anfragen
+          </router-link>
+        </div>
       </div>
     </section>
   </div>
