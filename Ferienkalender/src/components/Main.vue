@@ -19,6 +19,12 @@ export default {
       calendarOptions: {
         plugins: [dayGridPlugin, interactionPlugin],
         initialView: 'dayGridMonth',
+        events: [
+          {
+            id: '1',
+            title: 'Testevent',
+            start: '2022-10-28'
+          }],
         headerToolbar: {
           center: 'dayGridMonth,dayGridDay' // buttons for switching between views
         },
@@ -37,7 +43,7 @@ export default {
     }
   },
   methods: {
-    changeToDay: function(info:any) {
+    changeToDay: function (info: any) {
       console.log("Clicked", info);
       let calendarApi = this.$refs.fullCalendar.getApi()
       calendarApi.changeView('dayGridDay', info.date)
