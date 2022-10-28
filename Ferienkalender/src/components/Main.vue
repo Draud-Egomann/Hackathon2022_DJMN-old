@@ -95,7 +95,7 @@ export default {
         selectable: true,
         locales: [ deLocale ],
         locale: 'de',
-        dateClick: this.changeToDay // On Date Click, calls function declared in methods
+        dateClick: this.changeToDay, // On Date Click, calls function declared in methods
       },
     }
   },
