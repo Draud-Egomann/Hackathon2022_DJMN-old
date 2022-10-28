@@ -1,0 +1,7 @@
+{
+  "name": "Ferienplanner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
