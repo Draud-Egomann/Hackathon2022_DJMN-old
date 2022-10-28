@@ -32,6 +32,19 @@
               value="submit">Bestätigen</button>
           </div>
         </form>
+        <aside class="mt-4 bg-gray-100">
+          <div class="p-4">
+            <h2>Statistiken</h2>
+            <div class="mt-2">
+              <div class="w-full">
+                <b>Übrige Ferientage:</b> <span>{{ 25.5 }} von {{ 28 }}</span>
+              </div>
+              <div class="w-full">
+                <b>Angefrage Ferientage: </b> <span>{{ 3 }}</span>
+              </div>
+            </div>
+          </div>
+        </aside>
       </div>
       <div class="w-2/3 h-full px-4">
         <div class="bg-gray-100 p-4">
