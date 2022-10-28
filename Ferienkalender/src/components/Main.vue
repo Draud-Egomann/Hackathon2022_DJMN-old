@@ -1,8 +1,8 @@
 <template>
   <div class="bg-[#BFBFBF] py-4">
-    <div class="flex flex-wrap overflow-hidden justify-left bg-gray-100 w-3/4 m-auto">
-      <div class="w-1/3 border-black border-r-2 px-4">
-        <form class="flex flex-wrap w-full overflow-hidden py-4">
+    <div class="flex flex-wrap overflow-hidden justify-left w-3/4 m-auto">
+      <div class="w-1/3 px-4">
+        <form class="flex flex-wrap w-full overflow-hidden py-4 bg-gray-100 p-4">
           <div class="w-full overflow-hiddenpy-4">
             <div class="w-full py-2 px-4 ">
               <div class="border-black border-2 rounded-sm">
@@ -33,8 +33,10 @@
           </div>
         </form>
       </div>
-      <div class="w-2/3 h-full px-4 py-4">
-        <FullCalendar ref="fullCalendar" :options="calendarOptions" />
+      <div class="w-2/3 h-full px-4">
+        <div class="bg-gray-100 p-4">
+          <FullCalendar ref="fullCalendar" :options="calendarOptions" />
+        </div>
       </div>
     </div>
   </div>
