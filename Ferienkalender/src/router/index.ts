@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Main from "../components/Main.vue";
+import Statistic from "../components/Statistic.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -7,6 +8,10 @@ const router = createRouter({
     {
       path: "/",
       component: Main,
+    },
+    {
+      path: "/statistic",
+      component: Statistic,
     },
     {
       // 404
