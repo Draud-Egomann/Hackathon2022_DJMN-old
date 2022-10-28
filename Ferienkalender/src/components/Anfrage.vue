@@ -1,12 +1,15 @@
 <template>
-    <div v-for="dep in departments">
-        {{ dep }}
+    <div v-for="dep in departments">  
+      <div v-if="!dep.IsApproved"
+      >
+      {{ dep }}
+    </div>
     </div>
   </template>
   
   <script lang="ts">
       const variables = {
-        API_URL:"http://localhost:34474/API/User"
+        API_URL:"http://localhost:34474/API/Vacation"
     }
     const department={template: '<div> hi </div>'}
 import axios from "axios"
