@@ -1,3 +1,7 @@
+<template>
+  <FullCalendar :options="calendarOptions" />
+</template>
+
 <script lang="ts">
 import '@fullcalendar/core/vdom' // solves problem with Vite
 import FullCalendar from '@fullcalendar/vue3'
@@ -11,13 +15,14 @@ export default {
   data() {
     return {
       calendarOptions: {
-        plugins: [ dayGridPlugin, interactionPlugin ],
+        plugins: [dayGridPlugin, interactionPlugin],
         initialView: 'dayGridMonth'
       }
     }
   }
 }
 </script>
-<template>
-  <FullCalendar :options="calendarOptions" />
-</template>
+
+<style scoped>
+
+</style>
