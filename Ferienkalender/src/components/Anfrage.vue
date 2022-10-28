@@ -6,7 +6,7 @@
   
   <script lang="ts">
       const variables = {
-        API_URL:"http://localhost:"
+        API_URL:"http://localhost:34474/API/User"
     }
     const department={template: '<div> hi </div>'}
 import axios from "axios"
@@ -26,7 +26,7 @@ export default {
   },
   methods:{
     refreshData(){
-        axios.get(variables.API_URL+"User")
+        axios.get(variables.API_URL)
         .then((response) =>{
             this.departments=response.data
         })
