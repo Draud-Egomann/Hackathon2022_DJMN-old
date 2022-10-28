@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="w-full mx-auto">
-      <div class="flex flex-wrap w-full relative bg-gray-200 p-2">
+      <div class="flex flex-wrap w-full relative bg-[#427CAC] p-2">
         <div class="w-full lg:w-1/3">
           <img src="../assets/logo.svg" alt="Projekt Ferienplanner" class="h-full hidden lg:inline" />
         </div>

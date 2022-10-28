@@ -21,7 +21,7 @@ h3 {
 }
 
 .button {
-  @apply px-4 py-2 text-center shadow-md rounded-xl transition focus:outline-none focus:ring-2 focus:ring-opacity-75 transform-gpu duration-500 hover:scale-105;
+  @apply px-4 py-2 text-center shadow-md rounded-sm transition focus:outline-none focus:ring-2 focus:ring-opacity-75 transform-gpu duration-500 hover:scale-105;
 }
 
 .btn {
@@ -29,5 +29,5 @@ h3 {
 }
 
 .btn-Header {
-  @apply button bg-gray-400 bg-opacity-75 hover:bg-gray-500 hover:bg-opacity-75 mx-3 tracking-wide;
+  @apply button bg-gray-100 bg-opacity-75 hover:bg-gray-400 hover:bg-opacity-75 mx-3 tracking-wide;
 }
